@@ -2,7 +2,6 @@ body {
     width: 100%;
     height: 100%;
 }
-
 body {
     font-family: Merriweather,'Helvetica Neue',Arial,sans-serif;
 }
@@ -45,21 +44,96 @@ header .carousel-caption {
   text-align: left;
   text-shadow: 0 1px 2px rgba(0,0,0,.6)
 }                                                                   /*header ends*/
-.nav-justified li .active{                                           /*content starts*/
-    background-color: #269abc;
-}
-hr {
-    max-width: 50px;
-    border-color: #f05f40;
-    border-width: 3px;
-}
+                                                                    /*main content section starts*/
 
-hr.light {
-    border-color: #fff;
+#content-nav .nav-tabs > li.active > a,                             /*content-link starts*/
+#content-nav .nav-tabs > li.active > a:hover,
+#content-nav .nav-tabs > li.active > a:focus {
+  cursor: default;
+  background-color: #337ab7;
+  border: 1px solid #ddd;
+  border-bottom-color: transparent;
+  height: 80px;
+  top: -15px;
+  color: white;
 }
-.section-heading{
+#content-nav .nav-tabs > li > a{
+    border-color: #eee #eee #ddd;
+}
+#content-nav .nav-tabs > li > a:hover,
+#content-nav .nav-tabs > li > a:focus {
+  border-color: #eee #eee #ddd;
+  background-color: #337ab7;
+  height: 80px;
+  top: -15px;
+  color: white;
+}
+#content-nav .nav-tabs.nav-justified > .active > a,
+#content-nav .nav-tabs.nav-justified > .active > a:hover,
+#content-nav .nav-tabs.nav-justified > .active > a:focus {
+  cursor: default;
+  background-color: #337ab7;
+  border: 1px solid #ddd;
+  border-bottom-color: transparent;
+  height: 80px;
+  top: -15px;
+  color: white;  
+}
+                                                                 /*content-link en/*ds*/
+                                                                 /*our-service starts*/
+#our-service{
     
 }
-                                                                    /*content ends*/
-                                                                    
-                                                                    
+#our-service hr {
+    max-width: 50px;
+    border-color: #337ab7;
+    border-width: 3px;
+}
+#our-service .section-heading{
+    font-weight: bold;
+}
+#our-service .panel-1{
+    height: 100px;
+    width: 250px;
+    text-align: center;
+    border: none;
+    box-shadow: none;
+}
+.c{
+    color: #337ab7;
+}
+
+                                                                   /*our-service ends*/
+                                                                   /*why choose us starts*/
+#why-choose-us{
+    position: relative;
+    width: 100%;
+    min-height: 200px;
+    text-align: center;
+    color: #fff;
+    background-image: url(../image/1.jpg);
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;    
+}
+.img-layer {
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,.6);
+    position: absolute;
+    width: 100%;
+    min-height: 200px;
+}
+#why-choose-us .section-heading{
+    font-weight: bold;
+    color: #fff;
+}
+#why-choose-us .section-paragraph{
+    color: #fff;
+}
+.why-choose-us{
+   height: 50px;
+}
+                                                                     /*why choose us ends*/
+                                                                    /*main content section ends*/
+
