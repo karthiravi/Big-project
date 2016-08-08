@@ -43,7 +43,7 @@ header .carousel-caption {
     color: #fff;
     text-align: left;
     text-shadow: 0 1px 2px rgba(0,0,0,.6)
-}                                                                   /*header ends*/
+}                                                                   /*End of header*/
                                                                     /*main content section starts*/
 
 #content-nav .nav-tabs > li.active > a,                             /*content-link starts*/
@@ -79,7 +79,7 @@ header .carousel-caption {
     top: -15px;
     color: white;  
 }
-                                                                 /*content-link en/*ds*/
+                                                                 /*End of content-link*/
                                                                  /*our-service starts*/
 
 #our-service hr {
@@ -101,7 +101,7 @@ header .carousel-caption {
     color: #337ab7;
 }
 
-                                                                   /*our-service ends*/
+                                                                   /*End of our-service*/
                                                                    /*why choose us starts*/
 #why-choose-us {
     position: relative;
@@ -116,7 +116,7 @@ header .carousel-caption {
     background-size: cover;
     -o-background-size: cover;    
 }
-.img-layer {
+#why-choose-us .img-layer {
     box-shadow: inset 0 0 0 1000px rgba(0,0,0,.6);
     position: absolute;
     width: 100%;
@@ -130,7 +130,7 @@ header .carousel-caption {
     color: #fff;
 }
 .why-choose-us {
-   height: 50px;
+   min-height: 200px;
 }
 #why-choose-us-box ul > li > .box {
     border: 1px;
@@ -155,6 +155,214 @@ header .carousel-caption {
     font-weight: bolder;
     font-size: 18px;
 }
-                                                                     /*why choose us ends*/
-                                                                    /*main content section ends*/
+                                                                     /*End of why choose us*/
+                                                                     
+                                                                     /*why choose us news column goes here*/
+#about-news{
+    min-height: 250px;
+    background-color: #f3f8f3;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#about-news .btn{
+    border-radius: 18px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#about-news .vertical-text {    
+    -webkit-transform: rotate(270deg);
+    -moz-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    transform: rotate(270deg);
+    white-space: nowrap;
+    display: block;
+    bottom: 0;
+    width: 20px;
+    height: 20px;
+    margin-top: 200px;
+    float: left;
+}
+#about-news .b{
+    padding-right: 10px;
+    height: 250px;
+    float: left;
+}
+                                                                     /*End of choose us news column*/
+                                                                     /*our portfolios starts here*/
+#our-portfolio{
+    min-height: 620px; 
+}
+#our-portfolio .section-heading {
+    font-weight: bold;
+    color: #000;
+}
+#our-portfolio .section-paragraph {
+    color: #000;
+}
+#our-portfolio hr {
+    max-width: 50px;
+    border-color: #337ab7;
+    border-width: 3px;
+}
+#our-portfolio .container-fluid {
+     padding-right: 0; 
+     padding-left: 0;  
+     margin-right: auto;
+     margin-left: auto;
+     margin-bottom: 10px;
+}
+#our-portfolio .fun-back {
+    position: relative;
+    width: 100%;
+    min-height: 450px;
+    text-align: center;
+    color: #fff;
+    background-image: url(../image/1.jpg);
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;    
+}
+#our-portfolio .img-layer {
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,.6);
+    position: absolute;
+    width: 100%;
+    min-height: 450px;
+}
+.h{
+    margin-top: 380px;
+    border-radius: 15px;
+    padding: 0 15px;
+}
+#our-portfolio .carousel-inner > .item > img {
+    width: 100%;
+    height: 260px;
+    margin-top: 80px;
+}
+#our-portfolio .carousel-control.left, .carousel-control.right {
+    background: none !important; 
+    filter: none !important;
+    outline: 0;margin-top: 80px;
+}
+                                                                     /*End of our portfolios*/
+                                                                     /*our team starts*/
+#our-team{
+    min-height: 400px;
 
+}
+#our-team .section-heading {
+    font-weight: bold;
+    color: #000;
+}
+#our-team .section-paragraph {
+    color: #000;
+}
+#our-team hr {
+    max-width: 50px;
+    border-color: #337ab7;
+    border-width: 3px;
+}
+#our-team .team-pic {
+    height: 200px;
+}
+#our-team .team-pic img{
+    height:100%;
+    width: 100%;
+}
+#our-team .well{
+    background-color: #fff;
+    color: #000;
+    border-bottom-width: 3px;
+    border-bottom-color:#337ab7;
+    border-left-width: 2px;
+    border-left-color: #f5f5f5;
+    border-right-width: 2px;
+    border-right-color: #f5f5f5;
+    border-top-width: 0px;
+}
+                                                                      /*testimonials starts*/
+#testimonial .testimonial{
+    position: relative;
+    width: 100%;
+    min-height: 250px;
+    text-align: center;
+    color: #fff;
+    background-image: url(../image/1.jpg);
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;    
+}
+#testimonial .img-layer {
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,.6);
+    position: absolute;
+    width: 100%;
+    min-height: 250px;
+}
+                                                                      /*End of testimonials*/
+                                                                      /*appoinment starts*/
+#appoinment{
+    background-color: #337ab7;
+    min-height: 250px;
+}
+                                                                      /*End of appoinment*/
+                                                                     /*End of our team*/
+                                                                     /*our blog section starts*/
+#our-blog{
+    min-height: 400px;
+}
+#our-blog .section-heading {
+    font-weight: bold;
+    color: #000;
+}
+#our-blog .section-paragraph {
+    color: #000;
+}
+#our-blog hr {
+    max-width: 50px;
+    border-color: #337ab7;
+    border-width: 3px;
+}
+#our-blog .blog-pic{
+    height: 200px;
+    background-size: cover;
+    border: 1px solid red;
+    margin: 0px;padding: 0px;
+}
+#our-blog .blog-pic img {
+    height:100%;
+    width: 100%;
+}
+#our-blog .blog-content{
+    height: 40px;
+    border: 1px solid red;
+    padding: 0px;
+    text-align: left;
+    margin-bottom: 10px;
+}
+                                                                     /*End of our blog*/ 
+
+                                                                    /*End of main content section*/
+                                                                    /*map section starts*/
+#map {
+    height: 100px;
+    background-color: red;
+    color: white;
+    text-align: center;
+    font-size: 44px
+}                                                                    
+                                                                    /*End of map section*/
+                                                                    /*address section starts*/
+#address {
+    height: 100px;
+    background-color: black;
+    color: RED;
+    text-align: center;
+    font-size: 44px
+}                                                                    
+                                                                    /*address section starts*/
