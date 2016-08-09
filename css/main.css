@@ -207,16 +207,16 @@ header .carousel-caption {
     border-color: #337ab7;
     border-width: 3px;
 }
-#our-portfolio .container-fluid {
+/*#our-portfolio .container-fluid {
      padding-right: 0; 
      padding-left: 0;  
      margin-right: auto;
      margin-left: auto;
      margin-bottom: 10px;
-}
+}*/
 #our-portfolio .fun-back {
     position: relative;
-    width: 100%;
+    width: 92%;
     min-height: 450px;
     text-align: center;
     color: #fff;
@@ -230,7 +230,7 @@ header .carousel-caption {
 #our-portfolio .img-layer {
     box-shadow: inset 0 0 0 1000px rgba(0,0,0,.6);
     position: absolute;
-    width: 100%;
+    width: 92%;
     min-height: 450px;
 }
 .h{
@@ -285,9 +285,8 @@ header .carousel-caption {
     border-top-width: 0px;
 }
                                                                       /*testimonials starts*/
-#testimonial .testimonial{
+#testimonial{
     position: relative;
-    width: 100%;
     min-height: 250px;
     text-align: center;
     color: #fff;
@@ -296,17 +295,18 @@ header .carousel-caption {
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
-    -o-background-size: cover;    
+    -o-background-size: cover;padding:0px;margin:0px;    
 }
 #testimonial .img-layer {
     box-shadow: inset 0 0 0 1000px rgba(0,0,0,.6);
-    position: absolute;
+    position: relative;
     width: 100%;
     min-height: 250px;
 }
                                                                       /*End of testimonials*/
                                                                       /*appoinment starts*/
 #appoinment{
+    position: relative;
     background-color: #337ab7;
     min-height: 250px;
 }
